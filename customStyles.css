@@ -30,7 +30,7 @@
 #API_form #API_Container .API_resultItem h3                                 { color: #0E76BC; }
 */
 #API_Container .btn-default,
-#API_Container .API_resultItem .btn-default                       { color: white !important; background-color: #a23479!important; }
+#API_Container .API_resultItem .btn-default                       { color: white !important; background-color: #a23479!important; border-color: #a23479!important; }
 #API_Container .btn-default:hover,
 #API_Container .API_resultItem .btn-default:hover                 { background-color: #a23479 !important; color:#f9f9f9!important; }
 #API_Container .API_pagingContainer ul.pagination li a            { background-color: #f0f2e9 !important; color: #00b3eb !important; border: 1px solid #e5e9d9; }
@@ -87,7 +87,11 @@
         transition-property: all;
         transition-duration: .4s;
         transition-timing-function: ease-out; }
-        #API_Container .API_resultItem .btn-default:hover { background-color: #939a9c; }
+  
+        #API_Container .API_resultItem .btn-default:hover, #API_Container .btn-default:hover {
+            background-color: #AB4886!important; /* may not be the colour we use */ 
+            border-color: #AB4886!important;/* may not benot the colour we use */ 
+          }
 
     #API_Container .API_resultItem h3 { font-weight: bold; margin-top: 20px; line-height: 1.4em; }
 
