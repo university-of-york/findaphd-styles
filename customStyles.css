@@ -1,0 +1,89 @@
+﻿/*
+
+
+  ______ _           _          _____  _     _____  
+ |  ____(_)         | |   /\   |  __ \| |   |  __ \ 
+ | |__   _ _ __   __| |  /  \  | |__) | |__ | |  | |
+ |  __| | | '_ \ / _` | / /\ \ |  ___/| '_ \| |  | |
+ | |    | | | | | (_| |/ ____ \| |    | | | | |__| |
+ |_|    |_|_| |_|\__,_/_/    \_\_|    |_| |_|_____/ 
+     FindAPhD Listing Tool / Custom Styles 2015                                                    
+                                                    
+   Feel free to edit this file and host elsewhere
+
+
+*/
+
+
+
+/* this region if uncommented will override the basic colour scheme chosen within your FindAPhD admin screen under "listing tool".*/
+/*#region -- Basic Colours -- */
+/*#API_form #API_Container a                                                  { color: #0E76BC; }
+#API_form #API_Container a:hover,#API_Container a:visited                   { color: #0E76BC; }
+#API_form #API_Container #API_divSearchArea                                 { background-color: #0E76BC; }
+#API_form #API_Container .API_resultItem .API_phdTitle                      { color: #0E76BC; }
+#API_form #API_Container .API_resultItem .API_schoolTitle                   { color: #0E76BC; }
+#API_form #API_Container .API_resultItem .API_supervisors                   { color: #0E76BC; }
+#API_form #API_Container .API_resultItem .API_appDeadline span              { color: #0E76BC; }
+#API_form #API_Container .API_resultItem h3                                 { color: #0E76BC; }
+#API_form #API_Container .btn-default,
+#API_form #API_Container .API_resultItem .btn-default                       { color: white; background-color: #0E76BC; }
+#API_form #API_Container .btn-default:hover,
+#API_form #API_Container .API_resultItem .btn-default:hover                 { background-color: #939a9c; }
+#API_form #API_Container .API_pagingContainer ul.pagination li a            { color: #0E76BC; }
+#API_form #API_Container .API_pagingContainer ul.pagination li.active a     { background-color: #0E76BC; border-color: #0E76BC; }
+#API_form #API_Container .API_ResultInfo                                    { color: #0E76BC; }*/
+
+/*#endregion  -- Basic Colours -- */
+
+
+/* This is a basic style suggestion which can be altered to match your websites look and feel */
+/*#region -- Basic Styles -- */
+
+#API_Container { font-size: 14px; font-family: Arial !important; color: #333333 !important; }
+
+#API_Container #API_divSearchArea { color:white; padding-top:10px; padding-bottom:10px; padding-left:20px; padding-right:20px; }
+#API_Container .API_resultItem { padding: 0 15px; background-color: #ffffff; }
+#API_Container .API_resultItem .API_resultItem_Inner { border: 1px dotted #ccc; padding:20px 0; background-color: #f7f7f7; width: 100%; }
+#API_Container .API_resultItem.open {  }
+
+#API_Container .API_resultItem h3, #API_Container .API_resultItem .h3 { font-size: 16px; }
+
+    #API_Container .API_resultItem .API_phdTitle { font-size: 1.4em; line-height: 1.4em; font-weight: bold; }
+    #API_Container .API_resultItem .API_schoolTitle { line-height: 24px; padding-top:5px; padding-bottom:5px; }
+
+#API_Container .API_resultItem .API_supervisors { line-height:36px; }
+#API_Container .API_resultItem .API_supervisors .glyphicon { color:#aaa; }
+#API_Container .API_resultItem .API_supervisors span { color:#444; }
+
+    #API_Container .API_resultItem .API_categoryDiv { line-height: 40px; }
+    #API_Container .API_resultItem .API_categoryDiv .API_label {
+        background-color: #fff;
+        color: #333;
+        font-size: 12px;
+        border: 1px dotted #ccc;
+    }
+        #API_Container .API_resultItem .API_categoryDiv .API_label .glyphicon { font-size: 18px; float: left; padding-right: 6px; color: #333; }
+    @media (max-width: 660px) {
+        .API_label { min-width: 170px; }
+    }
+
+    #API_Container .API_resultItem .API_appDeadline { color: #333; }
+
+    #API_Container .API_resultItem .API_fundingNotes,
+    #API_Container .API_resultItem .API_references { margin-top: 20px; }
+
+    #API_Container .API_resultItem .btn-default { color: white; margin-top: 10px; margin-right: 10px; min-width: 120px; }
+        #API_Container .API_resultItem .btn-default:hover { background-color: #939a9c; }
+
+    #API_Container .API_resultItem h3 { font-weight: bold; margin-top: 20px; line-height: 1.4em; }
+
+    #API_Container .API_resultItem_separator { margin-top: 20px; }
+
+    #API_Container .API_pagingContainer { text-align: center; margin: 0 auto; padding-top: 20px; }
+    #API_Container .API_pagingContainer ul { margin: 10px 0; }
+
+        #API_Container .API_pagingContainer ul.pagination li.active a { color: white !important; }
+        #API_Container .API_pagingContainer ul.pagination li.disabled a { color: #999 !important; background-color: #eee !important; border-color: #eee; }
+
+/*#endregion -- Basic Styles -- */
