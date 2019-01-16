@@ -140,4 +140,31 @@
     display: none;
   }
 
+  #API_Container .form-control {
+    border-color: #b3b3b3!important;
+    border-radius: 3px;
+    color: #333;
+  }
+
+  #KeyArea .btn-default::after {
+      content: " Filter";
+  }
+
+  @media ( max-width: 768px ) {
+    #KeyArea	.input-group-btn {
+            float: left!important;
+        }
+        #KeyArea .btn-default {
+            border-radius: 3px!important;
+            margin-top: .5em!important;
+        }
+        #KeyArea	.input-group {
+            width: 100%!important;
+        }
+        #KeyArea .input-group input {
+          border-radius: 3px!important;
+          width: 100%!important;
+        }
+    }
+
 /*#endregion -- Basic Styles -- */
