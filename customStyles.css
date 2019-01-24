@@ -146,8 +146,16 @@
     color: #333;
   }
 
+  #KeyArea .btn-default {
+    text-indent: -9999px;
+    line-height: 0; 
+  }
   #KeyArea .btn-default::after {
-      content: " Filter";
+    content: "Filter by keyword";
+    text-indent: 0;
+    display: block;
+    line-height: 1.5; 
+    margin-top: -1.5em;
   }
 
   @media ( max-width: 768px ) {
