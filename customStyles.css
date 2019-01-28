@@ -73,8 +73,7 @@
         .API_label { min-width: 170px; }
     }
 
-    #API_Container .API_resultItem .API_appDeadline { color: #333; }
-
+  
     #API_Container .API_resultItem .API_fundingNotes,
     #API_Container .API_resultItem .API_references { margin-top: 20px; }
 
@@ -174,5 +173,22 @@
           width: 100%!important;
         }
     }
+
+     
+.clearer {
+  right: 0!important;
+}
+
+@media (min-width: 845px) {
+  .clearer {
+    right: 8rem!important;
+  }
+}
+
+
+.API_appDeadline,
+.API_appDeadline span {
+  color: #333!important;
+}
 
 /*#endregion -- Basic Styles -- */
