@@ -73,7 +73,6 @@
         .API_label { min-width: 170px; }
     }
 
-  
     #API_Container .API_resultItem .API_fundingNotes,
     #API_Container .API_resultItem .API_references { margin-top: 20px; }
 
@@ -88,8 +87,8 @@
         transition-timing-function: ease-out; }
   
         #API_Container .API_resultItem .btn-default:hover, #API_Container .btn-default:hover {
-            background-color: #AB4886!important; /* may not be the colour we use */ 
-            border-color: #AB4886!important;/* may not benot the colour we use */ 
+            background-color: #AB4886!important;  
+            border-color: #AB4886!important;
           }
 
     #API_Container .API_resultItem h3 { font-weight: bold; margin-top: 20px; line-height: 1.4em; }
@@ -102,6 +101,29 @@
     #API_Container .API_pagingContainer ul.pagination li.active a { color: white !important; }
     #API_Container .API_pagingContainer ul.pagination li.disabled a { color: #999 !important; background-color: #eee !important; border-color: #eee; }
 
+    #API_Container .API_pagingContainer ul.pagination li a {
+      background-color: #f0f2e9 !important;
+      color: #008cb8 !important;
+      border: 1px solid #e5e9d9;
+      margin: 0 .125em;
+      border-radius: 3px;
+      font-weight: bold;
+  }
+
+  #API_Container .API_pagingContainer ul.pagination li:first-child,
+  #API_Container .API_pagingContainer ul.pagination li:last-child {
+    display: none;
+  }
+
+  #API_Container .API_pagingContainer ul.pagination li:nth-child(2) a::before {
+    content: "\003c  \0020";
+  }
+  #API_Container .API_pagingContainer ul.pagination li:nth-last-child(2) a::after {
+    content: "\0020 \003e";
+  }
+
+
+  
     #API_Container .API_resultItem .API_categoryDiv .API_label {
         background-color: transparent!important;
         border: 0!important;
@@ -112,8 +134,8 @@
       }
 
       #API_Container .API_resultItem .btn-default:hover, #API_Container .btn-default:hover {
-        background-color: #AB4886!important; /* may not be the colour we use */ 
-        border-color: #AB4886!important;/* may not benot the colour we use */ 
+        background-color: #AB4886!important; 
+        border-color: #AB4886!important;
       }
       
       #API_Container .form-control {
@@ -133,6 +155,7 @@
       
 #API_Container .API_count {
     color: #333!important;
+    padding-left: 15px;
   }
   
   #API_Container .API_reset a {
@@ -190,5 +213,9 @@
 .API_appDeadline span {
   color: #333!important;
 }
+
+
+
+
 
 /*#endregion -- Basic Styles -- */
