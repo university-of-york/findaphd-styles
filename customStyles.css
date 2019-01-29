@@ -61,6 +61,14 @@
 #API_Container .API_resultItem .API_supervisors .glyphicon { color:#aaa; }
 #API_Container .API_resultItem .API_supervisors span { color:#444; }
 
+
+#API_Container .API_resultItem .API_emailBtn,
+#API_Container .API_resultItem .API_wwwBtn {
+  background: none;
+
+}
+
+
     #API_Container .API_resultItem .API_categoryDiv { line-height: 40px; }
     #API_Container .API_resultItem .API_categoryDiv .API_label {
         background-color: #fff;
