@@ -106,8 +106,13 @@
     #API_Container .API_pagingContainer { text-align: center; margin: 0 auto; padding-top: 20px; }
     #API_Container .API_pagingContainer ul { margin: 10px 0; }
 
+    #API_Container ul.pagination {
+      padding-left: 0!important;
+    }
+
     #API_Container .API_pagingContainer ul.pagination li.active a { color: white !important; }
-    #API_Container .API_pagingContainer ul.pagination li.disabled a { color: #999 !important; background-color: #eee !important; border-color: #eee; }
+    /* #API_Container .API_pagingContainer ul.pagination li.disabled a { color: #999 !important; background-color: #eee !important; border-color: #eee; } */
+    #API_Container .API_pagingContainer ul.pagination li.disabled a {display: none;}
 
     #API_Container .API_pagingContainer ul.pagination li a {
       background-color: #f0f2e9 !important;
@@ -131,11 +136,19 @@
   }
 
 
+
+  #API_Container {
+    font-family: museo-sans, Helvetica, Arial, sans-serif !important;
+  }
+
+  #API_Container .API_phdTitle {
+     font-family: chaparral-pro, "Times New Roman", Times, serif !important;
+  }
   
     #API_Container .API_resultItem .API_categoryDiv .API_label {
         background-color: transparent!important;
         border: 0!important;
-        font-family:inherit!important;
+        font-family: museo-sans, Helvetica, Arial, sans-serif !important;
         font-size: inherit!important;
         font-weight: normal!important;
         padding: 6px 10px 6px 0!important;
@@ -156,10 +169,7 @@
         color: #000!important;
       }
       
-      #FindAPhD {
-        background-image: none!important;
-      }
-      
+  
       
 #API_Container .API_count {
     color: #333!important;
@@ -222,8 +232,21 @@
   color: #333!important;
 }
 
+#API_Container .API_fullDetails h3,
+#API_Container .API_fullDetails h4,
+#API_Container .API_fullDetails h5 {
+  font-family: chaparral-pro, "Times New Roman", Times, serif !important;
+}
 
+#API_Container #API_divSearchArea {
+  padding-left: inherit!important;
+  padding-right: inherit!important;
+}
 
-
+.
 
 /*#endregion -- Basic Styles -- */
+
+
+
+    
